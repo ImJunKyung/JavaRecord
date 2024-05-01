@@ -28,10 +28,10 @@ public class type {
     // 정수를 저장한다는 개념은 모두 같으나, 타입들의 저장 가능 범위가 다르다.
     // byte < short < int < long (순으로 크기가 커진다.)
 
-    byte b = 127;
-    short s = 32767;
-    int i = 2147483647;
-    
+    byte b = 127; // 1byte
+    short s = 32767; // 2byte
+    int i = 2147483647; // 4byte
+    long l = 9223372036854775807L; // 8byte L을 입력하지 않으면 컴파일러가 int로 처리하려고 하기 때문에 유의하여야 한다.
 
 
 }
