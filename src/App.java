@@ -1,7 +1,6 @@
 public class App {
     public static void main(String[] args) {
         Type type = new Type();
-        int unicode = type.A;
 
         System.out.println("<정수형>");
         System.out.println("정수형 byte의 최대 크기 : " + type.b);
@@ -11,7 +10,7 @@ public class App {
         System.out.print("\n");
 
         System.out.println("<문자형> (정수형에 속함)");
-        System.out.println(type.A+"의 유니코드 값은 : " + unicode);
+        System.out.println(type.A+"의 유니코드 값은 : " + type.unicode);
         System.out.print("\n");
 
         System.out.println("<실수형>");
@@ -29,6 +28,7 @@ public class App {
         System.out.println("<String>");
         System.out.println("str에 할당된 문자열 : " + type.str);
         System.out.print("\n");
+
     }
 }
 
